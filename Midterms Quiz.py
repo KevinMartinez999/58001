@@ -9,7 +9,7 @@ class Distance_Conversion:
         return self.meter * 39.37
     def result(self):
         print("Centimeters: ", round(self.meter(), 100))
-        print("Kilometers: ", round(self.perimeter(), 1000))
+        print("Kilometers: ", round(self.meter(), 1000))
         print("Inches: ", round(self.meter(), 39.37))
 
 
